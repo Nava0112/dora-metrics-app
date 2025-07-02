@@ -1,0 +1,20 @@
+# Core Requirements
+Flask==2.3.2
+PyGithub==1.59.0
+
+# Authentication & API
+python-dotenv==1.0.0
+pyjwt==2.8.0
+requests==2.31.0
+
+# Metrics Calculation
+pandas==2.0.3  # For advanced metrics (lead time, deployment freq)
+numpy==1.24.3  # Required by pandas
+
+# Grafana Integration
+grafana-api==1.0.3  # Direct Grafana HTTP API pushes
+# influxdb-client==1.36.1  # Uncomment if using InfluxDB
+
+# Testing (Dev-only - optional)
+pytest==7.4.0
+python-dateutil==2.8.2  # Better date handling
